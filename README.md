@@ -26,6 +26,7 @@ In this edition, there were 34 Teams, 151 Participants, 13 Mentors and 6 jury me
 > [!NOTE]
 > Test.
 
+## TEAM
 | LinkedIn | GitHub |
 | :--: | :--: |
 | [Luiza Zilio](https://www.linkedin.com/in/luiza-zilio-4a7a14205/)	| [ziliolu](https://github.com/ziliolu)		|
