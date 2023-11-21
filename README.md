@@ -23,7 +23,7 @@ HACKACITY 2023
 
 ## HACKACITY 2023
 
-Thank you for visiting my repository!
+This repository is a mix of ideas, tools and information to complete the Hackacity 2023 event in Porto. It contains code developed on 24/11/2023.
 
 > [!NOTE]
 > Test.
