@@ -27,4 +27,11 @@ Thank you for visiting my repository!
 
 > [!NOTE]
 > Test.
+
+| LinkedIn | GitHub |
+| :--: | :--: |
+| [Luiza Zilio](https://www.linkedin.com/in/luiza-zilio-4a7a14205/)	| [ziliolu](https://github.com/ziliolu)		|
+| [Francisco Vieira](https://www.linkedin.com/in/fmotavieira/)		| [Xyckens](https://github.com/Xyckens)		|
+| [Mário Henriques](https://www.linkedin.com/in/mario18/)		| [maricard18](https://github.com/maricard18)	|
+| André Meneses								| amenses-					|
 - - - -
