@@ -54,7 +54,7 @@ There were already 5 previous editions in Porto, the last one was in 2022. In th
 - [UrbanX Submission Folder](https://associacaoportodigital-my.sharepoint.com/:f:/g/personal/hi_hackacity_eu/EiZ6lAvUYIdBoXyDW9GCVJkBai7SE1ZC2dC2v-UCqK2XoQ?e=5%3acZqJc3&fromShare=true&at=9) `OneDrive`
 
 > Past hackacity projects.
-- [hackacity2019](https://github.com/msramalho/hackacity2019/tree/master)
+- [hackacity2019](https://github.com/msramalho/hackacity2019/tree/master) `GitHub`
 
 ## PROJECT PIPELINE
 - Interact with API or download the database. If it's the first, we can use Python or Postman.
