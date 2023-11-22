@@ -14,6 +14,7 @@ HACKACITY 2023
 
 <p align="center">
 	<a href="#about">about</a> •
+	<a href="#rules">rules</a> •
 	<a href="#links">links</a> •
 	<a href="#project-pipeline">project pipeline</a> •
 	<a href="#tools">tools</a> •
@@ -23,8 +24,16 @@ HACKACITY 2023
 </p>
 
 ## ABOUT
+Hackacity is a one-of-a-kind hackathon that explores the potential of city data to develop solutions that will impact the community.
+
 This repository is a mix of ideas, tools and information used to complete the [**Hackacity 2023**](https://hackacity.eu/) event, in Porto. It contains code developed and graded by a jury on 24/11/2023.
-In this edition, there were **34 Teams**, **151 Participants**, **13 Mentors** and **6 jury members** in total that participated and worked together at **Museu do Carro Eletrico** (Porto, Portugal).
+
+There were already 5 previous editions in Porto, the last one was in 2022. In this edition, there were **34 Teams**, **151 Participants**, **13 Mentors** and **6 jury members** in total that participated and worked together at **Museu do Carro Eletrico** (Porto, Portugal).
+
+## RULES
+- _"The event starts at 08h30, all the teams should arrive at the venue before 08h15."_
+- _"All the participants should remain at the venue during the event."_
+- _"All the participants must bring their own laptop or other necessary equipment."_
 
 ## LINKS
 > Information and resources that may help with the project.
