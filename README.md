@@ -26,6 +26,7 @@ In this edition, there were **34 Teams**, **151 Participants**, **13 Mentors** a
 
 ## LINK
 > Information and resources that may help with the project.
+
 Luiza
 [Import JSON Data Into Google Spreadsheets Fast](https://youtu.be/AS2IR6We4bY?feature=shared) `Youtube`
 [How To Create A Correlation Matrix In Excel (With Colors!)](https://youtu.be/TkNt8KFm0LQ?si=ip4ZI9LCP4-uVGAy) `Youtube`
@@ -34,6 +35,7 @@ Joao
 
 
 > Necessary links for the Hackacity event progress.
+
 [Participants Guidebook](https://associacaoportodigital-my.sharepoint.com/:b:/g/personal/hi_hackacity_eu/EY7GK5ZFBwpAltyD4pmRYpcBwJmdTI__xsyZYBA3f_IGJA?e=4%3a0wTYsD&fromShare=true&at=9) `OneDrive` `PDF`
 [UrbanX Submission Folder](https://associacaoportodigital-my.sharepoint.com/:f:/g/personal/hi_hackacity_eu/EiZ6lAvUYIdBoXyDW9GCVJkBai7SE1ZC2dC2v-UCqK2XoQ?e=5%3acZqJc3&fromShare=true&at=9) `OneDrive`
 
