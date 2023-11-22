@@ -28,7 +28,7 @@ Hackacity is a one-of-a-kind hackathon that explores the potential of city data 
 
 This repository is a mix of ideas, tools and information used to complete the [**Hackacity 2023**](https://hackacity.eu/) event, in Porto. It contains code developed and graded by a jury on 24/11/2023.
 
-There were already 5 previous editions in Porto, the last one was in 2022. In this edition, there were **34 Teams**, **151 Participants**, **13 Mentors** and **6 jury members** in total that participated and worked together at [**Museu do Carro Elétrico**](https://www.google.com/maps/place/Tram+Museum/@41.1488633,-8.6393806,16.64z/data=!4m6!3m5!1s0xd24650d6e5d4f6d:0xb0933e834cc8bbfc!8m2!3d41.1475668!4d-8.6329328!16s%2Fg%2F122vkwkb?entry=tts) (Porto, Portugal).
+There were already 5 previous editions in Porto, the last one was in 2022. In this edition, there were **34 Teams**, **151 Participants**, **13 Mentors** and **6 jury members** in total that participated and worked together at [**Museu do Carro Elétrico**](https://www.google.com/maps/place/Tram+Museum/@41.1488633,-8.6393806,16.64z/data=!4m6!3m5!1s0xd24650d6e5d4f6d:0xb0933e834cc8bbfc!8m2!3d41.1475668!4d-8.6329328!16s%2Fg%2F122vkwkb?entry=tts) in Porto, Portugal.
 
 ## RULES
 - _"The event starts at 08h30, all the teams should arrive at the venue before 08h15."_
