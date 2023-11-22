@@ -75,9 +75,9 @@ We should have these programs/tools installed and/or know about them (know they 
 - [ ] Is the primary key (eg.: ID) valid? Is it missing or has an invalid format?
 > _**eg.:** C1 (01; sonae; pay; 100$; 20:42), C2 (NULL; sonae; pay; 100$; 20:42)._
 
-Excel Percentage Formula - `1 - (Total Rows / Invalid Rows)`
+Excel Percentage Formula `1 - (Total Rows / Invalid Rows)`
 
-**Poor quality data problems:**
+#### POOR QUALITY DATA PROBLEMS:
 - Waste of time and money;
 - Incorrect information and decisions are misguided;
 - Future opportunities missed;
