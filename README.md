@@ -13,15 +13,14 @@ HACKACITY 2023
 </p>
 
 <p align="center">
-	<a href="#">one</a> •
-	<a href="#">two</a> •
-	<a href="#">three</a>
+	<a href="#about">about</a> •
+	<a href="#team">team</a>
 </p>
 
 ## ABOUT
 
-This repository is a mix of ideas, tools and information used to complete the Hackacity 2023 event in Porto. It contains code developed and graded by a jury on 24/11/2023.
-In this edition, there were 34 Teams, 151 Participants, 13 Mentors and 6 jury members in total that participated and worked together at Museu do Carro Eletrico (Porto, Portugal).
+This repository is a mix of ideas, tools and information used to complete the **Hackacity 2023** event, in Porto. It contains code developed and graded by a jury on 24/11/2023.
+In this edition, there were **34 Teams**, **151 Participants**, **13 Mentors** and **6 jury members** in total that participated and worked together at **Museu do Carro Eletrico** (Porto, Portugal).
 
 > [!NOTE]
 > Test.
