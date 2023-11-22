@@ -34,6 +34,14 @@ There were already 5 previous editions in Porto, the last one was in 2022. In th
 - _"The event starts at 08h30, all the teams should arrive at the venue before 08h15."_
 - _"All the participants should remain at the venue during the event."_
 - _"All the participants must bring their own laptop or other necessary equipment."_
+- _"Your team must deliver the presentation and the produced code by 18:00."_
+- _"Presentations should be in .pptx or PDF format."_
+- _"Produced code/jupyter notebooks should be sent in a .ZIP folder."_
+- _"Deliverables will be uploaded to a One Drive. The link will be provided once the event starts."_
+- _"Make sure your team send the deliverables on time. Any delay could result in disqualification."_
+
+> [!NOTE]
+> _"To be eligible for the Data Quality Award, participants must add an additional slide to their presentation to explicitly address its relevance to the evaluation criteria, namely the relevant external resources and feedback on data improvements."_
 
 ## LINKS
 > Information and resources that may help with the project.
