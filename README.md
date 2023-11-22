@@ -22,8 +22,47 @@ HACKACITY 2023
 This repository is a mix of ideas, tools and information used to complete the **Hackacity 2023** event, in Porto. It contains code developed and graded by a jury on 24/11/2023.
 In this edition, there were **34 Teams**, **151 Participants**, **13 Mentors** and **6 jury members** in total that participated and worked together at **Museu do Carro Eletrico** (Porto, Portugal).
 
-> [!NOTE]
-> Test.
+## PROJECT
+### PIPELINE
+
+Interact with API and download the database. We can use Python or Postman.
+
+
+## TOOLS
+We should have these programs installed:
+- Python
+- Linux/Windows
+- Office 365
+- Visual Studio Code
+- Jupyter Notebook
+- Postman
+
+## PYTHON VIRTUAL ENVIRONMENT
+Why create a virtual environment? We can easily share our requirement packages with others so they can install and replicate the same environment so our program works anywhere.
+> Create a virtual environment.
+```bash
+python3 -m venv .venv
+```
+
+> Activate a virtual environment.
+```bash
+source .venv/bin/activate
+```
+
+> Deactivate a virtual environment.
+```bash
+deactivate
+```
+
+> Export all installed packages
+```bash
+python3 -m pip freeze
+```
+
+> Using a requirements.txt file to install packages
+```bash
+python3 -m pip install -r requirements.txt
+```
 
 ## TEAM
 | LinkedIn | GitHub |
