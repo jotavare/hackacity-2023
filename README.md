@@ -9,7 +9,7 @@ HACKACITY 2023
 <p align="center">
 	<img src="https://img.shields.io/badge/status-ongoing-success?color=%76B82A&style=flat-square" />
 	<img src="https://img.shields.io/badge/place-1st-success?color=%76B82A&style=flat-square" />
-	<img src="https://img.shields.io/github/last-commit/jotavare/42-resources?color=%76B82A&style=flat-square" />
+	<img src="https://img.shields.io/github/last-commit/jotavare/hackacity-2023?color=%76B82A&style=flat-square" />
 </p>
 
 <p align="center">
