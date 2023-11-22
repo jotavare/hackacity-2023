@@ -44,19 +44,32 @@ There were already 5 previous editions in Porto, the last one was in 2022. In th
 > To be eligible for the Data Quality Award, participants must add an additional slide to their presentation to explicitly address its relevance to the evaluation criteria, namely the relevant external resources and feedback on data improvements.
 
 ## LINKS
-> Information and resources that may help with the project.
-- [Import JSON Data Into Google Spreadsheets Fast](https://youtu.be/AS2IR6We4bY?feature=shared) `Youtube`
-- [How To Create A Correlation Matrix In Excel (With Colors!)](https://youtu.be/TkNt8KFm0LQ?si=ip4ZI9LCP4-uVGAy) `Youtube`
-- [Diagrama de Dispersão ou de Correlação](https://blogdaqualidade.com.br/diagrama-de-dispersao-ou-de-correlacao/) `Website`
-
 > Necessary links for the Hackacity event progress.
 - [Participants Guidebook](https://associacaoportodigital-my.sharepoint.com/:b:/g/personal/hi_hackacity_eu/EY7GK5ZFBwpAltyD4pmRYpcBwJmdTI__xsyZYBA3f_IGJA?e=4%3a0wTYsD&fromShare=true&at=9) `OneDrive` `PDF`
 - [UrbanX Submission Folder](https://associacaoportodigital-my.sharepoint.com/:f:/g/personal/hi_hackacity_eu/EiZ6lAvUYIdBoXyDW9GCVJkBai7SE1ZC2dC2v-UCqK2XoQ?e=5%3acZqJc3&fromShare=true&at=9) `OneDrive`
+- [Porto Data](https://opendata.porto.digital) `Website` `Data` `CSV`
+
+> Information and resources that may help with the project.
+- [Approaching a data science problem](https://medium.com/@ochwada/approaching-a-data-science-problem-e7086c678989) `Medium`
+- [Import JSON Data Into Google Spreadsheets Fast](https://youtu.be/AS2IR6We4bY?feature=shared) `Youtube`
+- [How To Create A Correlation Matrix In Excel (With Colors!)](https://youtu.be/TkNt8KFm0LQ?si=ip4ZI9LCP4-uVGAy) `Youtube`
+- [Diagrama de Dispersão ou de Correlação](https://blogdaqualidade.com.br/diagrama-de-dispersao-ou-de-correlacao) `Website`
+- [ChatGPT - Python Data Viz Guide](https://chat.openai.com/share/0e5c0aa0-bd5c-4c58-b083-0558e6eb8382) `ChatGPT`
 
 > Past hackacity projects.
-- [hackacity2019](https://github.com/msramalho/hackacity2019/tree/master) `GitHub`
+- [hackacity2019](https://github.com/msramalho/hackacity2019) `GitHub` `msramalho`
+- [hackacity-smo-2022](https://github.com/dfhssilva/hackacity-smo-2022) `GitHub` `dfhssilva`
+- [hackacity](https://github.com/tospe/hackacity) `GitHub` `tospe`
 
-## PROJECT PIPELINE
+## PROJECT
+#### IDEAS
+- Correlate electric scooter stop points with scooter accidents.
+- Utilize electric scooter GPS to differentiate between road and sidewalk usage.
+- Implement traffic lights equipped with cameras, possibly infrared, to optimize red and green signals changes.
+- Identify the number of stops within a 1km radius and analyze their (transport) coverage within an x radius.
+- Enable direct transportation access to consolidate multiple transports for a single destination.
+
+#### PIPELINE
 - Interact with API or download the database. If it's the first, we can use Python or Postman.
 - Know what data we are working with. If necessary go to external sources.
 - Sanitize data and remove noise data. Depends a lot on the problem.
@@ -69,6 +82,9 @@ We should have these programs/tools installed and/or know about them (know they 
 - Visual Studio Code
 - Jupyter Notebook
 - Postman
+- Google Colab Pro
+- [RAWGraphs 2.0](https://app.rawgraphs.io)
+- [YOLO](https://github.com/ultralytics/ultralytics)
 
 ## DATA QUALITY
 > [!CAUTION]
@@ -150,10 +166,11 @@ python3 -m pip install -r requirements.txt
 ```
 
 ## TEAM
-| LinkedIn | GitHub |
-| :--: | :--: |
-| [Luiza Picoli Zilio](https://www.linkedin.com/in/luiza-zilio-4a7a14205/)	| [ziliolu](https://github.com/ziliolu)		|
-| [Francisco Vieira](https://www.linkedin.com/in/fmotavieira/)		| [Xyckens](https://github.com/Xyckens)		|
-| [Mário Henriques](https://www.linkedin.com/in/mario18/)		| [maricard18](https://github.com/maricard18)	|
-| André Silva								| amenses-					|
+| LinkedIn | GitHub | 42 |
+| :--: | :--: | :--: |
+| [João Oliveira](https://www.linkedin.com/in/joaoptoliveira/)			| [jotavare](https://github.com/jotavare)	| [jotavare](https://profile.intra.42.fr/users/jotavare)	|
+| [Luiza Picoli Zilio](https://www.linkedin.com/in/luiza-zilio-4a7a14205/)	| [ziliolu](https://github.com/ziliolu)		| [lpicoli-](https://profile.intra.42.fr/users/lpicoli-)	|
+| [Francisco Vieira](https://www.linkedin.com/in/fmotavieira/)			| [Xyckens](https://github.com/Xyckens)		| [fvieira](https://profile.intra.42.fr/users/fvieira)		|
+| [Mário Henriques](https://www.linkedin.com/in/mario18/)			| [maricard18](https://github.com/maricard18)	| [maricard](https://profile.intra.42.fr/users/maricard)	|
+| André Silva									| [mzsv](https://github.com/mzsv)		| [amenses-](https://profile.intra.42.fr/users/amenses-)	|
 - - - -
