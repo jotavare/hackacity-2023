@@ -24,27 +24,22 @@ HACKACITY 2023
 This repository is a mix of ideas, tools and information used to complete the **Hackacity 2023** event, in Porto. It contains code developed and graded by a jury on 24/11/2023.
 In this edition, there were **34 Teams**, **151 Participants**, **13 Mentors** and **6 jury members** in total that participated and worked together at **Museu do Carro Eletrico** (Porto, Portugal).
 
-## LINK
+## LINKS
 > Information and resources that may help with the project.
-
-Luiza
-[Import JSON Data Into Google Spreadsheets Fast](https://youtu.be/AS2IR6We4bY?feature=shared) `Youtube`
-[How To Create A Correlation Matrix In Excel (With Colors!)](https://youtu.be/TkNt8KFm0LQ?si=ip4ZI9LCP4-uVGAy) `Youtube`
-
-Joao
-
+- [Import JSON Data Into Google Spreadsheets Fast](https://youtu.be/AS2IR6We4bY?feature=shared) `Youtube`
+- [How To Create A Correlation Matrix In Excel (With Colors!)](https://youtu.be/TkNt8KFm0LQ?si=ip4ZI9LCP4-uVGAy) `Youtube`
 
 > Necessary links for the Hackacity event progress.
+- [Participants Guidebook](https://associacaoportodigital-my.sharepoint.com/:b:/g/personal/hi_hackacity_eu/EY7GK5ZFBwpAltyD4pmRYpcBwJmdTI__xsyZYBA3f_IGJA?e=4%3a0wTYsD&fromShare=true&at=9) `OneDrive` `PDF`
+- [UrbanX Submission Folder](https://associacaoportodigital-my.sharepoint.com/:f:/g/personal/hi_hackacity_eu/EiZ6lAvUYIdBoXyDW9GCVJkBai7SE1ZC2dC2v-UCqK2XoQ?e=5%3acZqJc3&fromShare=true&at=9) `OneDrive`
 
-[Participants Guidebook](https://associacaoportodigital-my.sharepoint.com/:b:/g/personal/hi_hackacity_eu/EY7GK5ZFBwpAltyD4pmRYpcBwJmdTI__xsyZYBA3f_IGJA?e=4%3a0wTYsD&fromShare=true&at=9) `OneDrive` `PDF`
-[UrbanX Submission Folder](https://associacaoportodigital-my.sharepoint.com/:f:/g/personal/hi_hackacity_eu/EiZ6lAvUYIdBoXyDW9GCVJkBai7SE1ZC2dC2v-UCqK2XoQ?e=5%3acZqJc3&fromShare=true&at=9) `OneDrive`
+> Past hackacity projects.
+- [hackacity2019](https://github.com/msramalho/hackacity2019/tree/master)
 
 ## PROJECT PIPELINE
-- Interact with API or download the database. If it's the first we can use Python or Postman.
+- Interact with API or download the database. If it's the first, we can use Python or Postman.
 - Know what data we are working with. If necessary go to external sources.
 - Sanitize data and remove noise data. Depends a lot on the problem.
-
-## DATA QUALITY
 
 ## TOOLS
 We should have these programs/tools installed and/or know about them (know they exist):
@@ -54,6 +49,41 @@ We should have these programs/tools installed and/or know about them (know they 
 - Visual Studio Code
 - Jupyter Notebook
 - Postman
+
+## DATA QUALITY
+> [!CAUTION]
+> The questions below are case-to-case dependent. For example, some empty fields may be empty/null on purpose because they are optional. The information should be studied and taken with a grain of salt.
+**Good quality data check:**
+- [ ] Is data missing? Is it blank? Is that blank because it's optional?
+> **eg.:** C1 (Pedro), C2 (Tiago), C3 (NULL), C4 ().
+
+- [ ] Is the data conformed? What data is stored in a non-standard format?
+> **eg.:** C1 (27-Out-96), C2 (19961027) or C1 ($1000), C2 (1000€).
+
+- [ ] Is the data unique? Are there repeated/duplicated values? Is that necessary?
+> **eg.:** C1 (01; John; Doe; London), C2 (02; John; Doe; London).
+
+- [ ] Is the data correct? Are certain values out of date?
+> **eg.:** C1 (Pedro; 4000-100; Portugal), C2 (Tiago; 4350; Portugal).
+
+- [ ] Is the data valid? Spelling mistakes on standard names, roles, bad email well formulated?
+> **eg.:** C1 (software engineer;), C2 (soft engin).
+
+- [ ] Is the data consistent? Is there conflicting information?
+> **eg.:** C1 (01; sonae; pay; 100$; 20:42), C2 (02; sonae; pay; 100$; 20:42).
+
+- [ ] Is the primary key (eg.: ID) valid? Is it missing or has an invalid format?
+> **eg.:** C1 (01; sonae; pay; 100$; 20:42), C2 (NULL; sonae; pay; 100$; 20:42).
+
+All of these questions could be calculated with an Excel form.
+The percentage can be used to have a correct number of valid data. `1 - (Total Rows / Invalid Rows)`
+
+**Poor quality data problems:**
+- Waste of time and money;
+- Incorrect information and decisions are misguided;
+- Future opportunities missed;
+- Negative image for the company;
+- Lower customer satisfaction;
 
 ## PY VENV
 Why create a virtual environment? We can easily share our requirement packages, so everyone can install and replicate the same environment for the program to work.
