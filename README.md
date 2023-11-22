@@ -16,12 +16,13 @@ HACKACITY 2023
 	<a href="#about">about</a> •
 	<a href="#project-pipeline">project pipeline</a> •
 	<a href="#tools">tools</a> •
+	<a href="#data-quality">data quality</a> •
 	<a href="#py-venv">py venv</a> •
 	<a href="#team">team</a>
 </p>
 
 ## ABOUT
-This repository is a mix of ideas, tools and information used to complete the **Hackacity 2023** event, in Porto. It contains code developed and graded by a jury on 24/11/2023.
+This repository is a mix of ideas, tools and information used to complete the [**Hackacity 2023**](https://hackacity.eu/) event, in Porto. It contains code developed and graded by a jury on 24/11/2023.
 In this edition, there were **34 Teams**, **151 Participants**, **13 Mentors** and **6 jury members** in total that participated and worked together at **Museu do Carro Eletrico** (Porto, Portugal).
 
 ## LINKS
@@ -53,31 +54,47 @@ We should have these programs/tools installed and/or know about them (know they 
 ## DATA QUALITY
 > [!CAUTION]
 > The questions below are case-to-case dependent. For example, some empty fields may be empty/null on purpose because they are optional. The information should be studied and taken with a grain of salt.
-**Good quality data check:**
-- [ ] Is data missing? Is it blank? Is that blank because it's optional?
-> `C1 (Pedro)` `C2 (Tiago)` `C3 (NULL)` `C4 ()`
+#### GOOD QUALITY DATA CHECK:
+- [ ] **Is data missing? Is it blank? Is that blank because it's optional?**
+```
+C1 (Pedro) C2 (Tiago) C3 (NULL) C4 ()
+```
 
-- [ ] Is the data conformed? What data is stored in a non-standard format?
-> `C1 (27-Out-96)` `C2 (19961027)`
+- [ ] **Is the data conformed? What data is stored in a non-standard format?**
+```
+C1 (27-Out-96) C2 (19961027)
+```
 
-- [ ] Is the data unique? Are there repeated/duplicated values? Is that necessary?
-> `C1 (01; Pedro; Oliviera; Portugal)` `C2 (02; Pedro; Oliviera; Portugal)`
+- [ ] **Is the data unique? Are there repeated/duplicated values? Is that necessary?**
+```
+C1 (01; Pedro; Oliviera; Portugal) C2 (02; Pedro; Oliviera; Portugal)
+```
 
-- [ ] Is the data correct? Are certain values out of date?
-> `C1 (Pedro; 4000-100; Portugal)` `C2 (Tiago; 4350; Portugal)`
+- [ ] **Is the data correct? Are certain values out of date?**
+```
+C1 (Pedro; 4000-100; Portugal) C2 (Tiago; 4350; Portugal)
+```
 
-- [ ] Is the data valid? Spelling mistakes on standard names, roles, bad email well formulated?
-> `C1 (software engineer)` `C2 (soft engin)`
+- [ ] **Is the data valid? Spelling mistakes on standard names, roles, bad email well formulated?**
+```
+C1 (software engineer) C2 (soft engine)
+```
 
-- [ ] Is the data consistent? Is there conflicting information?
-> `C1 (01; sonae; pay; 100$; 20:42)` `C2 (02; sonae; pay; 100$; 20:42)`
+- [ ] **Is the data consistent? Is there conflicting information?**
+```
+C1 (01; sonae; pay; 100$; 20:42) C2 (02; sonae; pay; 100$; 20:42)
+```
 
-- [ ] Is the primary key (eg.: ID) valid? Is it missing or has an invalid format?
-> `C1 (01; sonae; pay; 100$; 20:42)` `C2 (NULL; sonae; pay; 100$; 20:42)`
+- [ ] **Is the primary key (eg.: ID) valid? Is it missing or has an invalid format?**
+```
+C1 (01; sonae; pay; 100$; 20:42) C2 (NULL; sonae; pay; 100$; 20:42)
+```
 
 #### EXCEL PERCENTAGE FORMULA
 We can calculate the percentage of valid data and do a correlation.
-> `1 - (Total Rows / Invalid Rows)`
+```
+1 - (Total Rows / Invalid Rows)
+```
 
 #### POOR QUALITY DATA PROBLEMS:
 - Waste of time and money;
@@ -116,8 +133,8 @@ python3 -m pip install -r requirements.txt
 ## TEAM
 | LinkedIn | GitHub |
 | :--: | :--: |
-| [Luiza Zilio](https://www.linkedin.com/in/luiza-zilio-4a7a14205/)	| [ziliolu](https://github.com/ziliolu)		|
+| [Luiza Picoli Zilio](https://www.linkedin.com/in/luiza-zilio-4a7a14205/)	| [ziliolu](https://github.com/ziliolu)		|
 | [Francisco Vieira](https://www.linkedin.com/in/fmotavieira/)		| [Xyckens](https://github.com/Xyckens)		|
 | [Mário Henriques](https://www.linkedin.com/in/mario18/)		| [maricard18](https://github.com/maricard18)	|
-| André Meneses								| amenses-					|
+| André Silva								| amenses-					|
 - - - -
