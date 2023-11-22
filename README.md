@@ -14,6 +14,7 @@ HACKACITY 2023
 
 <p align="center">
 	<a href="#about">about</a> •
+	<a href="#links">links</a> •
 	<a href="#project-pipeline">project pipeline</a> •
 	<a href="#tools">tools</a> •
 	<a href="#data-quality">data quality</a> •
