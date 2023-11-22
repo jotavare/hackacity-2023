@@ -55,27 +55,29 @@ We should have these programs/tools installed and/or know about them (know they 
 > The questions below are case-to-case dependent. For example, some empty fields may be empty/null on purpose because they are optional. The information should be studied and taken with a grain of salt.
 **Good quality data check:**
 - [ ] Is data missing? Is it blank? Is that blank because it's optional?
-> _**eg.:** C1 (Pedro), C2 (Tiago), C3 (NULL), C4 ()._
+> `C1 (Pedro)` `C2 (Tiago)` `C3 (NULL)` `C4 ()`
 
 - [ ] Is the data conformed? What data is stored in a non-standard format?
-> _**eg.:** C1 (27-Out-96), C2 (19961027) or C1 ($1000), C2 (1000€)._
+> `C1 (27-Out-96)` `C2 (19961027)`
 
 - [ ] Is the data unique? Are there repeated/duplicated values? Is that necessary?
-> _**eg.:** C1 (01; John; Doe; London), C2 (02; John; Doe; London)._
+> `C1 (01; Pedro; Oliviera; Portugal)` `C2 (02; Pedro; Oliviera; Portugal)`
 
 - [ ] Is the data correct? Are certain values out of date?
-> _**eg.:** C1 (Pedro; 4000-100; Portugal), C2 (Tiago; 4350; Portugal)._
+> `C1 (Pedro; 4000-100; Portugal)` `C2 (Tiago; 4350; Portugal)`
 
 - [ ] Is the data valid? Spelling mistakes on standard names, roles, bad email well formulated?
-> _**eg.:** C1 (software engineer;), C2 (soft engin)._
+> `C1 (software engineer)` `C2 (soft engin)`
 
 - [ ] Is the data consistent? Is there conflicting information?
-> _**eg.:** C1 (01; sonae; pay; 100$; 20:42), C2 (02; sonae; pay; 100$; 20:42)._
+> `C1 (01; sonae; pay; 100$; 20:42)` `C2 (02; sonae; pay; 100$; 20:42)`
 
 - [ ] Is the primary key (eg.: ID) valid? Is it missing or has an invalid format?
-> _**eg.:** C1 (01; sonae; pay; 100$; 20:42), C2 (NULL; sonae; pay; 100$; 20:42)._
+> `C1 (01; sonae; pay; 100$; 20:42)` `C2 (NULL; sonae; pay; 100$; 20:42)`
 
-Excel Percentage Formula `1 - (Total Rows / Invalid Rows)`
+#### EXCEL PERCENTAGE FORMULA
+We can calculate the percentage of valid data and do a correlation.
+> `1 - (Total Rows / Invalid Rows)`
 
 #### POOR QUALITY DATA PROBLEMS:
 - Waste of time and money;
