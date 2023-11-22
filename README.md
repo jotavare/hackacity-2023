@@ -47,6 +47,7 @@ There were already 5 previous editions in Porto, the last one was in 2022. In th
 > Information and resources that may help with the project.
 - [Import JSON Data Into Google Spreadsheets Fast](https://youtu.be/AS2IR6We4bY?feature=shared) `Youtube`
 - [How To Create A Correlation Matrix In Excel (With Colors!)](https://youtu.be/TkNt8KFm0LQ?si=ip4ZI9LCP4-uVGAy) `Youtube`
+- [Diagrama de Dispersão ou de Correlação](https://blogdaqualidade.com.br/diagrama-de-dispersao-ou-de-correlacao/) `Website`
 
 > Necessary links for the Hackacity event progress.
 - [Participants Guidebook](https://associacaoportodigital-my.sharepoint.com/:b:/g/personal/hi_hackacity_eu/EY7GK5ZFBwpAltyD4pmRYpcBwJmdTI__xsyZYBA3f_IGJA?e=4%3a0wTYsD&fromShare=true&at=9) `OneDrive` `PDF`
