@@ -38,8 +38,6 @@ There were already 5 previous editions in Porto, the last one was in 2022. In th
 - Your team must deliver the presentation and the produced code by 18:00.
 - Presentations should be in .pptx or PDF format.
 - Produced code/jupyter notebooks should be sent in a .ZIP folder.
-- Deliverables will be uploaded to a One Drive. The link will be provided once the event starts.
-- Make sure your team send the deliverables on time. Any delay could result in disqualification.
 ```
 
 > [!NOTE]
