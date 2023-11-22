@@ -14,19 +14,18 @@ HACKACITY 2023
 
 <p align="center">
 	<a href="#about">about</a> •
+	<a href="#project-pipeline">project pipeline</a> •
+	<a href="#tools">tools</a> •
+	<a href="#py-venv">py venv</a> •
 	<a href="#team">team</a>
 </p>
 
 ## ABOUT
-
 This repository is a mix of ideas, tools and information used to complete the **Hackacity 2023** event, in Porto. It contains code developed and graded by a jury on 24/11/2023.
 In this edition, there were **34 Teams**, **151 Participants**, **13 Mentors** and **6 jury members** in total that participated and worked together at **Museu do Carro Eletrico** (Porto, Portugal).
 
-## PROJECT
-### PIPELINE
-
+## PROJECT PIPELINE
 Interact with API and download the database. We can use Python or Postman.
-
 
 ## TOOLS
 We should have these programs installed:
@@ -37,8 +36,8 @@ We should have these programs installed:
 - Jupyter Notebook
 - Postman
 
-## PYTHON VIRTUAL ENVIRONMENT
-Why create a virtual environment? We can easily share our requirement packages with others so they can install and replicate the same environment so our program works anywhere.
+## PY VENV
+Why create a virtual environment? We can easily share our requirement packages, so everyone can install and replicate the same environment for the program to work.
 > Create a virtual environment.
 ```bash
 python3 -m venv .venv
