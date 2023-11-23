@@ -81,6 +81,8 @@ We should have these programs/tools installed and/or know about them (know they 
 - Office 365 (Excel)
 - Visual Studio Code
 - Jupyter Notebook
+- Anaconda
+- Pandas
 - PEP 8 Style Guide
 - Postman
 - Google Colab Pro
