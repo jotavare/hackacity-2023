@@ -65,7 +65,7 @@ There were already 5 previous editions in Porto, the last one was in 2022. In th
 #### IDEAS
 - Correlate electric scooter stop points with scooter accidents.
 - Utilize electric scooter GPS to differentiate between road and sidewalk usage.
-- Implement traffic lights equipped with cameras, possibly infrared, to optimize red and green signals changes.
+- Implement traffic lights equipped with cameras, possibly infrared, to optimize red and green signal changes.
 - Identify the number of stops within a 1km radius and analyze their (transport) coverage within an x radius.
 - Enable direct transportation access to consolidate multiple transports for a single destination.
 
@@ -81,6 +81,7 @@ We should have these programs/tools installed and/or know about them (know they 
 - Office 365 (Excel)
 - Visual Studio Code
 - Jupyter Notebook
+- PEP 8 Style Guide
 - Postman
 - Google Colab Pro
 - [RAWGraphs 2.0](https://app.rawgraphs.io)
