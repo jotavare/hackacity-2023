@@ -1,0 +1,10 @@
+timestamp,date_observed,time_observed,time_observed_from,time_observed_to,entity_id,entity_type,latitude,longitude,laeq,name
+2019-01-01 00:11:59,01/01/2019,00:11:59,,,urn:ngsi-ld:NoiseLevelObserved:porto:noise:ubiwhere:5a8af1d40de8eb4bab4251a9,NoiseLevelObserved,41.1480545661906,-8.61118521288017,106.0,urn:ngsi-ld:NoiseLevelObserved:porto:noise:ubiwhere:5a8af1d40de8eb4bab4251a9
+2019-01-01 00:33:57,01/01/2019,00:33:57,,,urn:ngsi-ld:NoiseLevelObserved:porto:noise:ubiwhere:5b99119915a41f13620799e4,NoiseLevelObserved,41.1734336,-8.6882191,69.9,Anemona
+2019-01-01 00:36:37,01/01/2019,00:36:37,,,urn:ngsi-ld:NoiseLevelObserved:porto:noise:ubiwhere:5b86725e0dde591949ba5004,NoiseLevelObserved,41.1718621,-8.6131861,79.3,Arca de Agua
+2019-01-01 00:36:36,01/01/2019,00:36:36,,,urn:ngsi-ld:NoiseLevelObserved:porto:noise:ubiwhere:5a8af08e0de8eb4bab42511d,NoiseLevelObserved,41.14642951483879,-8.617865198164969,75.9,Hospital Sto. Antonio
+2019-01-01 00:51:29,01/01/2019,00:51:29,,,urn:ngsi-ld:NoiseLevelObserved:porto:noise:ubiwhere:5aafa44d4a62a76dc692944a,NoiseLevelObserved,41.1610089,-8.6044085,67.0,Marques
+2019-01-01 00:57:20,01/01/2019,00:57:20,,,urn:ngsi-ld:NoiseLevelObserved:porto:noise:ubiwhere:5a8af0d70de8eb4bab425125,NoiseLevelObserved,41.150122921315386,-8.607110381286365,93.0,Bolhao
+2019-01-01 01:16:15,01/01/2019,01:16:15,,,urn:ngsi-ld:NoiseLevelObserved:porto:noise:ubiwhere:5a8af0bb0de8eb4bab42511f,NoiseLevelObserved,41.1735278,-8.684325,68.6,Queimodromo
+2019-01-01 01:31:32,01/01/2019,01:31:32,,,urn:ngsi-ld:NoiseLevelObserved:porto:noise:ubiwhere:5b99119915a41f13620799e4,NoiseLevelObserved,41.1734336,-8.6882191,71.5,Anemona
+2019-01-01 01:41:05,01/01/2019,01:41:05,,,urn:ngsi-ld:NoiseLevelObserved:porto:noise:ubiwhere:5a8af1a50de8eb4bab4251a7,NoiseLevelObserved,41.1477035912415,-8.61099688343234,107.1,Aliados 3
