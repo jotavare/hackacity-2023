@@ -27,7 +27,8 @@ if not df.empty:
         icon = folium.Icon(color=color)
 
         # Add marker to the map using the Icon
-        folium.Marker(location=[row['latitude'], row['longitude']], popup=row['subCategory'], icon=icon).add_to(mymap)
+        folium.Marker(location=[row['latitude'], row['longitude']],
+                      popup=row['subCategory'], icon=icon).add_to(mymap)
 
     # Save the map as an HTML file
     mymap.save('map.html')
