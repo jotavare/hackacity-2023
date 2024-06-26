@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://github.com/jotavare/hackacity-2023/blob/main/images/github_banner_hackacity_2023_v2.png">
+  <img src="https://github.com/jotavare/hackacity-2023/blob/main/source/images/github_banner_hackacity_2023_v2.png">
 </h1>
 
 <p align="center">
