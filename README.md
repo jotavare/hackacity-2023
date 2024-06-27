@@ -3,9 +3,9 @@
 </h1>
 
 <p align="center">
-	<img src="https://img.shields.io/badge/status-finished-success?color=%76B82A&style=flat-square" />
-	<img src="https://img.shields.io/badge/place-finalists-success?color=%76B82A&style=flat-square" />
-	<img src="https://img.shields.io/github/last-commit/jotavare/hackacity-2023?color=%76B82A&style=flat-square" />
+	<img src="https://img.shields.io/badge/status-finished-success?color=%2376B82A&style=flat-square" />
+	<img src="https://img.shields.io/badge/place-finalists-success?color=%2376B82A&style=flat-square" />
+	<img src="https://img.shields.io/github/last-commit/jotavare/hackacity-2023?color=%2376B82A&style=flat-square" />
 	<a href='https://www.linkedin.com/in/joaoptoliveira' target="_blank"><img alt='Linkedin' src='https://img.shields.io/badge/LinkedIn-100000?style=flat-square&logo=Linkedin&logoColor=white&labelColor=0A66C2&color=0A66C2'/></a>
 	<a href='https://profile.intra.42.fr/users/jotavare' target="_blank"><img alt='42' src='https://img.shields.io/badge/Porto-100000?style=flat-square&logo=42&logoColor=white&labelColor=000000&color=000000'/></a>
 </p>
@@ -14,11 +14,12 @@
 	<a href="#about">About</a> •
 	<a href="#rules">Rules</a> •
 	<a href="#links">Links</a> •
-	<a href="#project-pipeline">Project Pipeline</a> •
+	<a href="#project">Project</a> •
+	<a href="#usage">Usage</a> •
 	<a href="#tools">Tools</a> •
 	<a href="#data-quality">Data Quality</a> •
 	<a href="#py-venv">PY Venv</a> •
-	<a href="#team">Team</a>
+	<a href="#team">Team</a> •
 	<a href="#contributing">Contributing</a> •
 	<a href="#license">License</a>
 </p>
@@ -73,6 +74,25 @@ There were already 5 previous editions in Porto, the last one was in 2022. In th
 - Interact with API or download the database. If it's the first, we can use Python or Postman.
 - Know what data we are working with. If necessary go to external sources.
 - Sanitize data and remove noise data. Depends a lot on the problem.
+
+## USAGE
+
+The scripts live in `source/py/` and are run from there.
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install pandas folium matplotlib numpy
+cd source/py
+python3 map.py          # writes map.html from source/data/roadConstrains.csv
+```
+
+> [!NOTE]
+> Only `map.py` runs from what is in this repository. `dashboard.py` needs
+> `airQualityData.csv` and `create_road_alerts_csv.py` needs `alerts.json`,
+> both taken from the event's data portal during the hackathon. Those datasets
+> belong to the organisers and are not redistributed here, along with the
+> rulebooks, guides and data dictionaries handed out at the event.
 
 ## TOOLS
 We should have these programs/tools installed and/or know about them (know they exist):
@@ -179,7 +199,7 @@ python3 -m pip install -r requirements.txt
 
 ## CONTRIBUTING
 
-If you find any issues or have suggestions for improvements, feel free to fork the repository and open an issue or submit a pull request.
+This repository holds work from a finished event and is not open to changes.
 
 ## LICENSE
 
