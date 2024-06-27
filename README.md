@@ -1,26 +1,26 @@
-<!---
-HACKACITY 2023
--->
-
 <h1 align="center">
-  <img src="https://github.com/jotavare/hackacity-2023/blob/main/images/github_banner_hackacity_2023_v2.png">
+  <img src="https://github.com/jotavare/hackacity-2023/blob/main/source/images/github_banner_hackacity_2023_v2.png">
 </h1>
 
 <p align="center">
 	<img src="https://img.shields.io/badge/status-finished-success?color=%76B82A&style=flat-square" />
 	<img src="https://img.shields.io/badge/place-finalists-success?color=%76B82A&style=flat-square" />
 	<img src="https://img.shields.io/github/last-commit/jotavare/hackacity-2023?color=%76B82A&style=flat-square" />
+	<a href='https://www.linkedin.com/in/joaoptoliveira' target="_blank"><img alt='Linkedin' src='https://img.shields.io/badge/LinkedIn-100000?style=flat-square&logo=Linkedin&logoColor=white&labelColor=0A66C2&color=0A66C2'/></a>
+	<a href='https://profile.intra.42.fr/users/jotavare' target="_blank"><img alt='42' src='https://img.shields.io/badge/Porto-100000?style=flat-square&logo=42&logoColor=white&labelColor=000000&color=000000'/></a>
 </p>
 
 <p align="center">
-	<a href="#about">about</a> •
-	<a href="#rules">rules</a> •
-	<a href="#links">links</a> •
-	<a href="#project-pipeline">project pipeline</a> •
-	<a href="#tools">tools</a> •
-	<a href="#data-quality">data quality</a> •
-	<a href="#py-venv">py venv</a> •
-	<a href="#team">team</a>
+	<a href="#about">About</a> •
+	<a href="#rules">Rules</a> •
+	<a href="#links">Links</a> •
+	<a href="#project-pipeline">Project Pipeline</a> •
+	<a href="#tools">Tools</a> •
+	<a href="#data-quality">Data Quality</a> •
+	<a href="#py-venv">PY Venv</a> •
+	<a href="#team">Team</a>
+	<a href="#contributing">Contributing</a> •
+	<a href="#license">License</a>
 </p>
 
 ## ABOUT
@@ -176,4 +176,11 @@ python3 -m pip install -r requirements.txt
 | [Francisco Vieira](https://www.linkedin.com/in/fmotavieira/)			| [Xyckens](https://github.com/Xyckens)		| [fvieira](https://profile.intra.42.fr/users/fvieira)		|
 | [Mário Henriques](https://www.linkedin.com/in/mario18/)			| [maricard18](https://github.com/maricard18)	| [maricard](https://profile.intra.42.fr/users/maricard)	|
 | André Silva									| [mzsv](https://github.com/mzsv)		| [amenses-](https://profile.intra.42.fr/users/amenses-)	|
-- - - -
+
+## CONTRIBUTING
+
+If you find any issues or have suggestions for improvements, feel free to fork the repository and open an issue or submit a pull request.
+
+## LICENSE
+
+This project is available under the MIT License. For further details, please refer to the [LICENSE](https://github.com/jotavare/hackacity-2023/blob/main/LICENSE) file.
