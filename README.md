@@ -199,7 +199,7 @@ python3 -m pip install -r requirements.txt
 
 ## CONTRIBUTING
 
-This repository holds work from a finished event and is not open to changes.
+This repository is finished and not open to changes.
 
 ## LICENSE
 
