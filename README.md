@@ -1,6 +1,6 @@
-<h1 align="center">
+<p align="center">
   <img src="https://github.com/jotavare/hackacity-2023/blob/main/source/images/github_banner_hackacity_2023_v2.png">
-</h1>
+</p>
 
 ## ABOUT
 Hackacity is a one-of-a-kind hackathon that explores the potential of city data to develop solutions that will impact the community.
